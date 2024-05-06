@@ -4,5 +4,6 @@ import { defineConfig } from "wxt";
 export default defineConfig({
   manifest: {
     name: "Refined ChatGPT",
+    host_permissions: ["*://chat.openai.com/*", "*://chatgpt.com/*"],
   },
 });
